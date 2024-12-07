@@ -1,0 +1,147 @@
+.formulario-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+
+h2 {
+    color: #000;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.signature-section,
+.pdf-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.message-section {
+    background-color: #ffcc00;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+button {
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+
+.signature-canvas {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+.signature-section button,
+.pdf-section button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.signature-section button:hover,
+.pdf-section button:hover {
+    background-color: #45a049;
+}
+
+
+.signature-section {
+    text-align: center;
+}
+
+.signature-canvas {
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 90%;
+}
+
+form button {
+    width: 90%;
+    max-width: 200px;
+}
+
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
